@@ -1,0 +1,60 @@
+.App {
+   text-align: center;
+}
+
+.App-logo {
+   height: 40vmin;
+   pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+   .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+   }
+}
+
+.Contenedor {
+   max-width: 100%;
+   margin: 0 auto;
+   background: linear-gradient(to right, #00aaff, #00ff6c);
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   font-size: calc(10px + 2vmin);
+   color: white;
+}
+.Calculadora {
+   margin-top: 80px;
+   margin-left: 240px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+   background-color: #e9eaec;
+   width: 400px;
+   height: 700px;
+   border-radius: 25px;
+}
+.Calculadora td button {
+   display: block;
+   cursor: pointer;
+   border: 2px solid black;
+   background-color: #007965;
+   color: ivory;
+   border-radius: 5px;
+   width: 90px;
+   height: 70px;
+   font-size: 25px;
+}
+.Resultado {
+   display: block;
+   text-align: center;
+   font-size: 40px;
+   margin-bottom: 40px;
+   width: 400px;
+   height: 100px;
+   line-height: 100px;
+   background-color: rgb(152, 154, 170);
+   border-radius: 15px;
+}
