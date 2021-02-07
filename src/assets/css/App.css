@@ -1,0 +1,104 @@
+* {
+  text-align: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to right, #00aaff, #00ff6c);
+}
+.Contenedor {
+  max-width: 100rem;
+  margin: 0 auto;
+  background: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+}
+.Calculadora table {
+  /* margin-top: 5rem; */
+  margin-bottom: 2rem;
+  /* align-content: center; */
+  /* align-items: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  background-color: #e9eaec;
+  width: 400px;
+  height: 700px;
+  border-radius: 25px;
+}
+.Calculadora td button {
+  display: block;
+  cursor: pointer;
+  border: 2px solid black;
+  background-color: #007965;
+  color: ivory;
+  border-radius: 5px;
+  width: 90px;
+  height: 70px;
+  font-size: 25px;
+}
+/* .Resultado {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+  width: 400px;
+  height: 100px;
+  line-height: 100px;
+  background-color: rgb(152, 154, 170);
+  border-radius: 15px;
+} */
+input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 395px;
+  height: 100px;
+  background-color: rgb(152, 154, 170);
+  border: 1px solid rgb(152, 154, 170);
+  margin-bottom: 30px;
+  border-radius: 5px;
+  font-size: 35px;
+  font-weight: 300;
+}
+#igual {
+  display: grid;
+  grid-row: 4/6;
+  grid-column: 4;
+}
+@media (max-width: 450px) {
+  .Contenedor {
+    max-width: 100rem;
+    margin: 0 auto;
+    /* background: linear-gradient(to right, #00aaff, #00ff6c); */
+    min-height: 100vh;
+  }
+  .Calculadora td button {
+    display: block;
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: #007965;
+    color: ivory;
+    border-radius: 5px;
+    width: 80px;
+    height: 70px;
+    font-size: 25x;
+    font-weight: 300;
+  }
+  /* .Resultado {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 90px;
+    line-height: 100px;
+    background-color: rgb(152, 154, 170);
+    border-radius: 15px;
+  } */
+}
